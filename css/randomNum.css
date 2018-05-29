@@ -7,7 +7,7 @@
     background: -moz-linear-gradient(yellow, red); /* Firefox 3.6 - 15 */
     background: linear-gradient(yellow, red); /* 标准的语法 */
 }
-#main-box{
+.main-box{
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -20,4 +20,10 @@
     height: 60px;
     margin: 100px auto;
     display: block;
+}
+#redball{
+    color: #fff;
+}
+#blueball{
+    color: blue;
 }
