@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background: -webkit-linear-gradient(yellow, red); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(yellow, red); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(yellow, red); /* Firefox 3.6 - 15 */
+    background: linear-gradient(yellow, red); /* 标准的语法 */
+}
+#main-box{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.btn{
+    width: 100px;
+    height: 60px;
+    margin: 100px auto;
+    display: block;
+}
