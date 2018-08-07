@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>今天是今年的第几周</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var d1 = new Date();
+        var d2 = new Date();
+        d2.setMonth(0);
+        d2.setDate(1);
+        var rq = d1-d2;
+        var s1 = Math.ceil(rq/(24*60*60*1000));
+        var s2 = Math.ceil(s1/7);
+        alert("今年是"+d1.getFullYear()+"年,今天是本年第"+s1+"天，第"+s2+"周");//周日做为下周的开始计算
+    </script>
+</body>
+</html>
